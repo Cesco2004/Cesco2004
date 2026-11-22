@@ -22,7 +22,7 @@ July 2026 – January 2027
 
 **Racine.ai**, applied AI start-up, Founders' Associate, CEO Office
 
-## Featured project
+## Featured projects
 
 ### [Are prediction markets efficient? A pre-registered research programme](https://github.com/Cesco2004/prediction-markets-research)
 
@@ -40,6 +40,17 @@ football, Kalshi and Polymarket.
   Four of the five studies are documented nulls or falsifications.
 - **Papers**: two working papers on the Kalshi bias, in
   [`papers/`](https://github.com/Cesco2004/prediction-markets-research/tree/main/papers).
+
+### [MarketPulse X: an LLM pipeline that turns cross-market data into published analysis](https://github.com/Cesco2004/marketpulse-x)
+
+Built and run in production in March 2026 on a live X account.
+
+- **Pipeline**: five data sources (Polymarket, crypto, macro, sentiment, economic calendar), then
+  a cross-market correlation engine, LLM generation (Mistral, with a Groq fallback), a
+  seven-criteria quality score with human review, and automated publishing. A Flask dashboard
+  runs it.
+- **Outcome**: it worked technically. I stopped it because engagement did not justify the X API
+  cost: the unit economics did not hold.
 
 ## Tools
 
